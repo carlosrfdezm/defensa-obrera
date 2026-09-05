@@ -514,3 +514,36 @@ body {
         text-align: center;
     }
 }
+
+/* ============================================
+   TESTIMONIOS EN SLIDER
+   ============================================ */
+
+.testimonio-slide {
+    padding: 20px 0;
+}
+
+.testimonio-slide .fa-quote-left {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.testimonio-slide p {
+    font-size: 20px;
+    font-style: italic;
+    max-width: 700px;
+    margin: 0 auto 20px;
+    line-height: 1.8;
+    color: var(--gris-texto);
+}
+
+@media (max-width: 768px) {
+    .testimonio-slide p {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+    
+    .testimonio-slide .fa-quote-left {
+        font-size: 24px;
+    }
+}
