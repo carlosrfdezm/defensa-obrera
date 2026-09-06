@@ -670,13 +670,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <input type="checkbox" name="recordar" id="recordar">
                         Recordarme
                     </label>
-                    <a href="#" class="forgot-link">¿Olvidaste tu contraseña?</a>
+                    <a href="recuperar_password.php" class="forgot-link">¿Olvidaste tu contraseña?</a>
                 </div>
                 
                 <button type="submit" class="btn-submit" id="submitBtn">
                     <i class="fas fa-sign-in-alt"></i>
                     Ingresar al panel
                 </button>
+                
             </form>
             
             <!-- Credenciales de desarrollo (solo visibles localmente) 

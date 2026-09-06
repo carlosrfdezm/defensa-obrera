@@ -471,6 +471,8 @@ if (isset($_GET['editar_faq'])) {
                 <a href="resultados.php"><i class="fas fa-chart-bar"></i> Resultados</a>
                 <a href="recursos.php" class="active"><i class="fas fa-book"></i> Recursos</a>
                 <a href="mensajes.php"><i class="fas fa-envelope"></i> Mensajes</a>
+                <a href="usuarios.php"><i class="fas fa-user-cog"></i> Usuarios</a>
+                <a href="cambiar_password.php"><i class="fas fa-key"></i> Cambiar contraseña</a>
                 <a href="logout.php"><i class="fas fa-sign-out-alt"></i> Cerrar Sesión</a>
             </nav>
         </aside>
